@@ -1,0 +1,14 @@
+package com.niranjan.java.MappingProject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MappingProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MappingProjectApplication.class, args);
+		System.out.println("Hello world");
+	}
+
+}
